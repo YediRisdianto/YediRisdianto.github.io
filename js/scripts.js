@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
 
-    emailjs.init("NyGgaPU42v0L8hEBEr");
+    emailjs.init("yGgaPU42v0L8hEBEr");
 
     const form = document.getElementById("contactForm");
     const submitBtn = document.getElementById("submitBtn");
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         emailjs.send(
             "service_ax2a4la",
-            "template_n1l8all",
+            "template_haa20zr",
             {
                 name: name,
                 email: email,
